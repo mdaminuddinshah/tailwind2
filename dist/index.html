@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+    html::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background-color: rgba(1,1,1,0.2);
+    }
+
+    html::-webkit-scrollbar-track {
+        background-color: rgba(1,1,1,0.2);
+    }
+
+    .scroll::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+        background-color: rgba(1,1,1,0.2);
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        background-color: rgba(1,1,1,0.2);
+    }
+    </style>
+</head>
+<body class=" relative">
+
+    <!-- navigation -->
+    <div class="bg-white">
+        <nav class="border-b-2 z-20 items-center  flex lg:mx-12">
+            <div class="flex gap-12 flex-1">
+                <img class="h-20 w-2/12" src="../img/logo.png">
+                <div class="lg:flex hidden gap-8  items-center">
+                    <a class="text-lg">Home</a>
+                    <a class="text-lg">Home</a>
+                    <a class="text-lg">Home</a>
+                    <a class="text-lg">Home</a>
+                </div>
+            </div>
+            <div class="hidden lg:flex flex-1 justify-end items-center gap-8">
+                <div class="flex gap-4">
+                    <a class="text-lg">Login</a>
+                    <a>|</a>
+                    <a class="text-lg">Register</a>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <div class="flex items-center gap-1">
+                        <i class='bx bx-bell text-lg'></i>
+                        <span class="text-sm">Notifications</span>
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <i class='bx bx-help-circle text-lg'></i>
+                        <span class="text-sm">Help</span>
+                    </div>
+                    <div class="flex items-center gap-1 mr-3">
+                        <i class='bx bx-cart-alt text-2xl'></i>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="lg:hidden block mr-2">
+                <i class='bx bx-menu text-2xl'></i>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- header -->  
+    <header class="gap-6 mb-6 container mx-auto grid lg:grid-cols-2 justify-items-center grid-rows-1">
+        <!-- first -->
+        <div class="lg:mt-6 h-52 md:h-80 lg:h-100 px-4 md:p-6 lg:p-12 justify-center items-center flex flex-col flex-1">
+            <p class="text-green-500 font-bold text-xs md:text-md lg:text-lg xl:text-xl">Skin Care Product</p>
+            <h1 class="lg:my-2 text-xl lg:text-4xl xl:text-6xl font-bold text-center">Bringing Out The Beauty In You</h1>
+            <p class="text-black w-2/3 font-light my-1 text-center text-xs sm:text-lg lg:text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa, dolorem itaque est repellendus quidem atque incidunt 
+            </p>
+            <button class="md:mt-12 font-bold self-center mt-2 px-3 py-1 text-xs lg:text-lg rounded-2xl shadow-lg bg-green-400 text-white">
+                Shop Now
+            </button>
+        </div>
+
+        <!-- second -->
+        <div class=" lg:mt-6 sm:w-99  lg:w-111 lg:h-100  h-72 md:h-80 justify-center flex flex-1">
+            <img src="../img/download (5).jpg" class="rounded-xl w-full">
+        </div>
+    </header>
+
+    <!-- content -->
+    <section class=" mt-16 md:mx-12 mx-auto flex flex-col">
+
+        <!--  -->
+        <div class=" mb-12 mt-4 mx-auto rounded-5xl md:shadow-xl flex items-center flex-col md:flex-row ">
+
+            <!-- image -->
+            <div class="w-80 h-100 lg:h-110 lg:w-full flex flex-1">
+                <img src="../img/download (4).jpg" class="rounded-xl md:rounded-r-none md:rounded-l-2xl w-full md:w-full h-full">
+            </div>
+
+            <!-- comment -->
+            <div class=" w-80 lg:w-full py-6 h-100 lg:h-110 rounded-5xl md:rounded-none md:rounded-r-5xl flex flex-col items-center justify-center flex-1">
+                <p class="text-green-500 text-xs md:text-sm xl:text-lg font-bold xl:my-1">Skin care product</p>
+                <h2 class="font-serif text-xl md:text-2xl xl:text-4xl font-bold">Beauty Service for You</h2>
+                <p class="w-2/3 xl:mt-5 mb-2 xl:mb-4 lg:mt-2 text-xs md:text-sm xl:text-lg font-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Culpa, dolorem itaque est repellendus quidem atque incidunt  
+                </p>
+                <div class="justify-center gap-4 flex flex-wrap my-2 xl:my-4">
+                    <div class=" flex flex-col items-center">
+                        <hr class=" border-2 xl:border-4 w-[97%]">
+                        <h2 class=" font-serif text-2xl md:text-3xl xl:text-4xl my-4 font-bold text-green-500">97%</h2>
+                        <p class="text-center font-serif text-xs md:text-sm xl:text-md font-semibold">Motivation Increase</p>
+                    </div>
+                    <div class=" flex flex-col items-center">
+                        <hr class=" border-2 xl:border-4 w-[85%]">
+                        <h2 class=" font-serif text-2xl md:text-3xl xl:text-4xl my-4 font-bold text-green-500">85%</h2>
+                        <p class="text-center font-serif text-xs md:text-sm xl:text-md font-semibold">Motivation Increase</p>
+                    </div>
+                    <div class=" flex flex-col items-center">
+                        <hr class=" border-2 xl:border-4 w-[81%]">
+                        <h2 class=" font-serif text-2xl md:text-3xl xl:text-4xl my-4 font-bold text-green-500">81%</h2>
+                        <p class="text-center font-serif text-xs md:text-sm xl:text-md font-semibold">Motivation Increase</p>
+                    </div>
+                </div>
+                <button class="font-serif mt-2 text-xs md:text-sm xl:text-md px-4 md:px-8 py-1 md:py-2 rounded-3xl bg-green-500 text-white font-bold flex self-center">Try & Free</button>
+            </div>
+        </div>
+        
+        <!-- info 1-->
+        <section class="mt-4 md:mt-20 grid grid-rows-1 mx-8">
+           
+            <!-- title -->
+            <div class="flex flex-col items-center">
+                <p class="font-bold text-green-400 text-lg">How to do wash</p>
+                <h2 class="text-center my-2 font-serif text-3xl font-bold">4 Steps for Your Skin Care</h2>
+                <p class="w-2/3 my-3 text-center text-md text-light font-serif">
+                    aLorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                </p>
+            </div>
+
+            <!-- step -->
+            <div class="mt-8 grid md:grid-cols-4 grid-cols-2 mx-auto gap-4">
+                <div class=" w-36  md:w-40  lg:w-52 p-4 relative flex flex-col items-center">
+                    <div class="left-4 w-10 h-10 flex items-center justify-center absolute z-20 bg-green-500 text-white rounded-full">1</div>
+                    <img class="w-36 h-28 md:w-40 md:h-28 lg:w-52 lg:h-40 mb-2 z-10 rounded-full shadow-[12px_0_8px_rgba(34,197,94,0.4)]" src="../img/wash.jpg">
+                    <h2 class="mt-12 font-serif my-4 uppercase text-xl font-bold">wash</h2>
+                    <p class="text-center font-serif text-md font-medium">
+                        aLorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div class=" w-36  md:w-40  lg:w-52 p-4 relative flex flex-col items-center">
+                    <div class="left-4 w-10 h-10 flex items-center justify-center absolute z-20 bg-green-500 text-white rounded-full">2</div>
+                    <img class="w-36 h-28 md:w-40 md:h-28 lg:w-52 lg:h-40 mb-2 z-10 rounded-full shadow-[12px_0_8px_rgba(34,197,94,0.4)]" src="../img/make.jpg">
+                    <h2 class="mt-12 font-serif my-4 uppercase text-xl font-bold">make</h2>
+                    <p class="text-center font-serif text-md font-medium">
+                        aLorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div class=" w-36  md:w-40  lg:w-52 p-4 relative flex flex-col items-center">
+                    <div class="left-4 w-10 h-10 flex items-center justify-center absolute z-20 bg-green-500 text-white rounded-full">3</div>
+                    <img class="w-36 h-28 md:w-40 md:h-28 lg:w-52 lg:h-40 mb-2 z-10 rounded-full shadow-[12px_0_8px_rgba(34,197,94,0.4)]" src="../img/treat.jpg">
+                    <h2 class="mt-12 font-serif my-4 uppercase text-xl font-bold">treat</h2>
+                    <p class="text-center font-serif text-md font-medium">
+                        aLorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div class=" w-36  md:w-40  lg:w-52 p-4 relative flex flex-col items-center">
+                    <div class="left-4 w-10 h-10 flex items-center justify-center absolute z-20 bg-green-500 text-white rounded-full">4</div>
+                    <img class="w-36 h-28 md:w-40 md:h-28 lg:w-52 lg:h-40 mb-2 z-10 rounded-full shadow-[12px_0_8px_rgba(34,197,94,0.4)]" src="../img/natural.jpg">
+                    <h2 class="mt-12 font-serif my-4 uppercase text-xl font-bold">natural</h2>
+                    <p class="text-center font-serif text-md font-medium">
+                        aLorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- info 2 -->
+        <section class="grid grid-rows-1 mt-20">
+
+            <!-- title -->
+            <div class="flex flex-col items-center">
+                <p class="text-xl text-green-400 font-bold">Ingredients</p>
+                <h2 class="w-2/3 my-4 font-serif text-4xl text-center font-bold">Product Information</h2>
+                <p class="w-7/12 mt-4 text-center font-light font-serif text-md">
+                    aLorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                </p>
+            </div>
+
+            <!-- image -->
+            <div class="md:gap-12 w-103 h-140 md:h-102 flex md:items-center md:flex-row  flex-col">
+                <div class="h-80 w-80 md:w-fit md:h-full items-center justify-center flex self-center">
+                    <img class="md:rounded-full rounded-2xl w-3/4 h-3/4 md:w-52 md:h-52 lg:w-80 lg:h-80 xl:w-96 xl:h-96" src="../img/Biossance.jpg">
+                </div>
+                <div class="md:pr-12 scroll gap-6 h-80 flex flex-1 flex-col overflow-y-scroll">
+                    <!--  -->
+                    <div class="rounded-3xl border-2 shadow-lg p-2 items-center md:justify-around md:flex-row flex-col flex">
+                        <div class=" flex w-fit items-center">
+                            <img class="border-2 rounded-full w-32 h-32 md:w-20 md:h-20 lg:w-36 lg:h-36 xl:w-44 xl:h-40" src="../img/The Biggest Beauty Product Trend of 2019 Is Almost Good Enough to Eat.jpg">
+                        </div>
+                        <div class="p-4 justify-center md:justify-evenly flex flex-1 flex-col">
+                            <h2 class="text-center md:text-start font-serif text-xl font-bold">Day 1</h2>
+                            <p class="w-6/7 md:text-start text-center text-md">
+                                aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                                aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="rounded-3xl border-2 shadow-lg p-2 items-center md:justify-around md:flex-row flex-col flex">
+                        <div class=" flex w-fit items-center">
+                            <img class="border-2 rounded-full w-32 h-32 md:w-20 md:h-20 lg:w-36 lg:h-36 xl:w-44 xl:h-40" src="../img/[ numbuzin ] No_1 Serum.jpg">
+                        </div>
+                        <div class="p-4 justify-center md:justify-evenly flex flex-1 flex-col">
+                            <h2 class="text-center md:text-start font-serif text-xl font-bold">Day 2</h2>
+                            <p class="w-6/7 md:text-start text-center text-md">
+                                aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                                aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                            </p>
+                        </div>
+                    </div>  
+                    <!--  -->
+                    <div class="rounded-3xl border-2 shadow-lg p-2 items-center md:justify-around md:flex-row flex-col flex">
+                        <div class=" flex w-fit items-center">
+                            <img class="border-2 rounded-full w-32 h-32 md:w-20 md:h-20 lg:w-36 lg:h-36 xl:w-44 xl:h-40" src="../img/Wonder Releaf Centella Serum Unscented.jpg">
+                        </div>
+                        <div class="p-4 justify-center md:justify-evenly flex flex-1 flex-col">
+                            <h2 class="text-center md:text-start font-serif text-xl font-bold">Day 3</h2>
+                            <p class="w-6/7 md:text-start text-center text-md">
+                                aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                                aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="rounded-3xl border-2 shadow-lg p-2 items-center md:justify-around md:flex-row flex-col flex">
+                        <div class=" flex w-fit items-center">
+                            <img class="border-2 rounded-full w-32 h-32 md:w-20 md:h-20 lg:w-36 lg:h-36 xl:w-44 xl:h-40" src="../img/Product Photography.jpg">
+                        </div>
+                        <div class="p-4 justify-center md:justify-evenly flex flex-1 flex-col">
+                            <h2 class="text-center md:text-start font-serif text-xl font-bold">Day 4</h2>
+                            <p class="w-6/7 md:text-start text-center text-md">
+                                aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                                aIpsa beatae distinctio voluptatibus dolores unde ipsam doloribus! 
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- best selling -->
+         <section class="py-6 mt-12 md:border-2 items-center flex flex-col md:w-138 lg:w-180 mx-auto md:h-127 border-2 rounded-2xl lg:h-133 md:rounded-5xl md:shadow-xl">
+            
+            <!-- title -->
+            <div class="pb-12 w-full flex flex-col justify-center items-center cols-span-3">
+                <p class="text-lg font-bold font-serif text-green-400">Our Products</p>
+                <h2 class="text-3xl font-bold font-serif">Our Best Selling</h2>
+            </div>
+
+            <!--  -->
+            <div class="w-full gap-4 flex flex-col items-center md:justify-center md:flex-row">
+                
+                <div class=" w-full md:w-48 lg:w-64 flex flex-col items-center">
+                    <div class="flex justify-center w-full h-full p-6 hover:shadow-2xl rounded-2xl cursor-pointer">
+                        <img class="rounded-full md:rounded-md h-32 lg:h-52 w-32 md:w-full" src="../img/The Biggest Beauty Product Trend of 2019 Is Almost Good Enough to Eat.jpg">
+                    </div>
+                    <div class=" flex flex-col">
+                        <p class="w-3/4 py-2 self-center text-center text-md font-serif font-bold">
+                            voluptates assumenda maiores illo quaerat
+                        </p>
+                        <div class="my-2 flex justify-center">
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                        </div>
+                        <p class="text-center text-green-600 font-bold">$19.00</p>
+                        <button class="mt-4 self-center rounded-3xl font-bold px-6 py-2 bg-green-600 text-white">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class=" w-full md:w-48 lg:w-64 flex flex-col items-center">
+                    <div class="flex justify-center w-full h-full p-6 hover:shadow-2xl rounded-2xl cursor-pointer">
+                        <img class="rounded-full md:rounded-md h-32 lg:h-52 w-32 md:w-full" src="../img/Product Photography.jpg">
+                    </div>
+                    <div class=" flex flex-col">
+                        <p class="w-3/4 py-2 self-center text-center text-md font-serif font-bold">
+                            voluptates assumenda maiores illo quaerat
+                        </p>
+                        <div class="my-2 flex justify-center">
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                        </div>
+                        <p class="text-center text-green-600 font-bold">$19.00</p>
+                        <button class="mt-4 self-center rounded-3xl font-bold px-6 py-2 bg-green-600 text-white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class=" w-full md:w-48 lg:w-64 flex flex-col items-center">
+                    <div class="flex justify-center w-full h-full p-6 hover:shadow-2xl rounded-2xl cursor-pointer">
+                        <img class="rounded-full md:rounded-md h-32 lg:h-52 w-32 md:w-full" src="../img/Wonder Releaf Centella Serum Unscented.jpg">
+                    </div>
+                    <div class=" flex flex-col">
+                        <p class="w-3/4 py-2 self-center text-center text-md font-serif font-bold">
+                            voluptates assumenda maiores illo quaerat
+                        </p>
+                        <div class="my-2 flex justify-center">
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                            <i class='text-yellow-400 bx bxs-star' ></i>
+                        </div>
+                        <p class="text-center text-green-600 font-bold">$19.00</p>
+                        <button class="mt-4 self-center rounded-3xl font-bold px-6 py-2 bg-green-600 text-white">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+         </section>
+    </section>
+
+    <!-- footer -->
+    <footer class="mt-16 h-full flex flex-col  bg-gray-200">
+        <div class="px-4 gap-2 md:py-12 place-items-center md:gap-12 h-full mx-auto grid grid-rows-3 md:grid-rows-none md:grid-cols-3">
+            <div class="py-2 md:py-0 border-b-2 md:border-b-0 border-gray-300 gap-4 md:gap-0 flex flex-row md:justify-center md:flex-col">
+                <h2 class="py-1 md:text-lg font-bold font-serif">Beauty</h2>
+                <p class="text-sm md:text-md pb-1 text-green-600 font-bold">(88) - 1234 56789</p>
+                <p class="text-sm w-5/6">104 Taman Mulan Mall Berhad Jaya, Lot U38</p>
+            </div>
+
+            <div class="py-1 md:py-0 border-b-2 md:border-b-0 border-gray-300 font-serif h-fit md:gap-2 text-sm font-semibold grid grid-cols-3 md:grid-cols-2">
+                <p class="border-2">About</p>
+                <p class="border-2">Partners</p>
+                <p class="border-2">Trials</p>
+                <p class="border-2">Contact Us</p>
+                <p class="border-2">Terms of Use</p>
+                <p class="border-2">Delivery and Payment</p>
+            </div>
+
+            <div class=" md:gap-2 items-center flex">
+                <div class="md:gap-2 flex flex-col items-start w-full">
+                    <p class=" hidden md:block text-md font-bold font-serif">Follow Us</p>
+                    <div>
+                        <i class='rounded-full p-1 bg-green-600 text-xl text-white bx bxl-tiktok'></i>
+                        <i class='rounded-full p-1 bg-green-600 text-xl text-white bx bxl-youtube'></i>
+                        <i class='rounded-full p-1 bg-green-600 text-xl text-white bx bxl-twitter' ></i>
+                        <i class='rounded-full p-1 bg-green-600 text-xl text-white bx bxl-facebook-circle' ></i>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>   
+      
+        <div class="py-4 flex justify-center border-t-2 border-gray-300">
+            <p class="font-medium text-xs">
+                Copyright 
+                <span><i class='bx bx-copyright'></i></span>
+                2022 <span class="font-bold">Beauty</span>. All Rights Preserved
+            </p>
+        </div>
+        
+    </footer>
+    
+</body>
+</html> 
